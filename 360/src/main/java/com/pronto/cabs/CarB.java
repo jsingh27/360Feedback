@@ -1,6 +1,6 @@
 package com.pronto.cabs;
 
-public class CarB implements Calculate {
+public class CarB implements Cab {
 
 	
 	public float caclculateFare(float miles) {

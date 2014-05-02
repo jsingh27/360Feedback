@@ -1,4 +1,4 @@
-package com.pronto.labs;
+package com.pronto.test;
 
 import com.pronto.sort.BucketSort;
 import com.pronto.sort.Sort;

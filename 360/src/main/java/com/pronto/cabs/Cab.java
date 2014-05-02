@@ -1,6 +1,6 @@
 package com.pronto.cabs;
 
-public interface Calculate {
+public interface Cab {
 
 	float caclculateFare(float miles);
 }
