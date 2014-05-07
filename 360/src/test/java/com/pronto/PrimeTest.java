@@ -1,25 +1,28 @@
 package com.pronto;
 
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
+
 import com.pronto.primetillnum.PrimeTillNum;
 
-import junit.framework.Assert;
-import junit.framework.TestCase;
+@RunWith(JUnit4.class)
+public class PrimeTest {
 
-public class PrimeTest extends TestCase {
-	
+	PrimeTillNum primeTillNum = new PrimeTillNum();
+
+	@Test
 	public void shouldBePrime() {
-		PrimeTillNum primeTillNum = new PrimeTillNum();
 		Boolean actual = primeTillNum.checkPrime(7);
 		Assert.assertEquals(Boolean.TRUE, actual);
 	}
-	
-	
+
+	@Test
 	public void shouldNotBePrime() {
-		PrimeTillNum primeTillNum = new PrimeTillNum();
 		Boolean actual = primeTillNum.checkPrime(20);
 		Assert.assertEquals(Boolean.FALSE, actual);
-		
+
 	}
-	
-	
+
 }
