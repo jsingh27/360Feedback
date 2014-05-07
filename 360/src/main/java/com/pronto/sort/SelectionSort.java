@@ -16,7 +16,6 @@ public class SelectionSort implements Sort {
 			elementssort[first] = elementssort[i];
 			elementssort[i] = temp;
 		}
-		System.out.println("This is slelection sort");
 		return elementssort;
 	}
 }

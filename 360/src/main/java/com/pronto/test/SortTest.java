@@ -1,6 +1,6 @@
 package com.pronto.test;
 
-import com.pronto.sort.BucketSort;
+import com.pronto.sort.BubbleSort;
 import com.pronto.sort.Sort;
 
 public class SortTest {
@@ -9,7 +9,7 @@ public class SortTest {
 
 		int[] array = { 1, 56, 2, 31, 5, 3 };
 		
-		Sort sort = new BucketSort();
+		Sort sort = new BubbleSort();
 		
 		
 		int[] sortedArray = sort.sort(array);
